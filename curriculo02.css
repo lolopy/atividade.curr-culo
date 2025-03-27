@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: left;
+    color: #000000;
+    margin: 20px;
+    padding: 0;
+}
+
+a {
+    color: #59b8cf;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #000000;
+    margin: 20px 0;
+}
+
+ul, ol, dl {
+    margin: 20px;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul li, ol li, dl dt, dl dd {
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 20px;
+    text-align: justify;
+}
