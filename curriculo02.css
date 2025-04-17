@@ -7,23 +7,26 @@ body {
     color: #333;
 }
 
+/* Seletores baseados em elemento/tag */
 h1, h2 {
     text-align: left;
     color: #000000;
     margin: 20px;
     padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-a {
+.link {
     color: #59b8cf;
     text-decoration: none;
     margin: 10px;
-    
+    font-weight: bold;
 }
 
-a:hover {
+.link:hover {
     text-decoration: underline;
-    
+    color: #660080;
 }
 
 hr {
@@ -33,6 +36,7 @@ hr {
     margin: 20px 0;
 }
 
+/* Seletores baseados em classe */
 ul, ol, dl {
     margin: 20px;
     padding: 0;
@@ -41,6 +45,7 @@ ul, ol, dl {
 
 ul li, ol li, dl dt, dl dd {
     margin-bottom: 10px;
+    font-style: italic;
 }
 
 img {
@@ -49,10 +54,50 @@ img {
     max-width: 100%;
     height: auto;
     box-shadow: #333 2px 2px 2px;
-    
+    border-radius: 10px;
 }
 
-p {
+.texto{
     margin: 20px;
     text-align: justify;
+    line-height: 1.8;
+    font-size: 1.1em;
 }
+
+.experiencia {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.skills {
+    background-color: #e0f7fa;
+    padding: 15px;
+    margin: 20px;
+    border-left: 5px solid #00796b;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Seletores baseados em ID */
+#header {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
